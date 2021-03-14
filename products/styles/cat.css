@@ -1,0 +1,39 @@
+.page-wrapper {
+  display: flex;
+  align-content: center;
+}
+#left-sidebar {
+  flex: 1;
+}
+.page-wrapper .right-sidebar, .page-wrapper{
+    flex: 2;
+}
+.page-wrapper .item {
+  flex: 3;
+}
+.item-info img {
+  float: left;
+  height: 150px;
+}
+.item-description {
+  margin-left: 170px;
+}
+.item-description span {
+  font-weight: bold;
+}
+.right-sidebar {
+  background-color: #f6deb1;
+}
+ul img {
+    width: 80px;
+    height: 80px;
+}
+ul a{
+  color: #000;
+}
+ul a:visited {
+  color: #000;
+}
+ul {
+  list-style: none;
+}
